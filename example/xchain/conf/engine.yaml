@@ -6,3 +6,5 @@ blockBroadcastMode: 0
 txidCacheExpiredTime: 3m 
 # txIdCacheGCInterval set clean up interval for tx cache
 txIdCacheGCInterval: 10m
+# disableEmyptBlocks is the flag for disable empyt block, true: do not create empty block, support consensus: tdpos\single, not support chainedBFT
+disableEmyptBlocks: false
